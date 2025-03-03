@@ -2,37 +2,37 @@
 
 [![Makefile CI](https://github.com/AndreCanto00/LLM_App/actions/workflows/makefile.yml/badge.svg)](https://github.com/AndreCanto00/LLM_App/actions/workflows/makefile.yml)
 
-## Descrizione
+## Description.
 
-LLM_App è un'applicazione per la sintesi del testo utilizzando il modello DistilBART-CNN. L'applicazione è costruita utilizzando FastAPI per il backend e Gradio per l'interfaccia utente.
+LLM_App is a text synthesis application using the DistilBART-CNN model. The application is built using FastAPI for the backend and Gradio for the user interface.
 
-## Installazione
+## Installation.
 
-Per installare le dipendenze necessarie, eseguire il seguente comando:
+To install the necessary dependencies, run the following command:
 
 ```bash
 make install
 ```
 
-## Utilizzo
+## Usage
 
-Per avviare l'applicazione, eseguire il seguente comando:
+To start the application, run the following command:
 
 ```bash
-python App.py
+python app.py
 ```
 
-## Test
+## Testing
 
-Per eseguire i test, utilizzare il comando:
+To run tests, use the command:
 
 ```bash
 make test
 ```
 
-## Formattazione del Codice
+## Code Formatting.
 
-Per formattare il codice, utilizzare il comando:
+To format the code, use the command:
 
 ```bash
 make format
@@ -40,7 +40,7 @@ make format
 
 ## Linting
 
-Per eseguire il linting del codice, utilizzare il comando:
+To lint the code, use the command:
 
 ```bash
 make lint
@@ -48,7 +48,7 @@ make lint
 
 ## Deploy
 
-Il comando di deploy non è ancora implementato.
+The deploy command is not yet implemented.
 
 ```bash
 make deploy
